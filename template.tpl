@@ -126,7 +126,7 @@ ___TEMPLATE_PARAMETERS___
         "type": "POSITIVE_NUMBER"
       }
     ],
-    "defaultValue": 420
+    "defaultValue": 1000
   },
   {
     "type": "CHECKBOX",
@@ -232,7 +232,6 @@ if  (getType(inUrl.hash)!=="undefined" ) {
     }
 }
 if(Object.entries(sp).length === 0 && inUrl.search.length > 1){
-  log("Apply searchParams fix");
   const search = inUrl.search.slice(1);
   const serchArr = search.split("&");
 
@@ -246,7 +245,6 @@ if(Object.entries(sp).length === 0 && inUrl.search.length > 1){
   {});
 }
 
-log("sp",sp);
 
 var uniqueParams = {};
 for ( var prm of Object.entries(sp) ) {
@@ -256,7 +254,6 @@ for ( var prm of Object.entries(sp) ) {
     uniqueParams[k]=vl;
 }
 sp = uniqueParams;
-log("sp",sp);
 
 var cleanParams = [];
 for ( var prm of Object.entries(sp) ) {
