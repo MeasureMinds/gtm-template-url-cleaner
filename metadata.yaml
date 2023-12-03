@@ -16,9 +16,14 @@ homepage: "https://measuremindsgroup.com"
 documentation: "https://measuremindsgroup.com"
 # Latest version
 versions:
+  - sha: f2160361e5b51021e6f2a86e1f59e2db0cbf06ee
+    changeNotes: Deleted outdated utm_params
+
+# Older versions
+versions:
   - sha: 73c91aa53a4b2dad9b963185efd9f06bac1d00fb
     changeNotes: Changed default maximum URL Length
-# Older versions
+
 versions:
   - sha: a5caeea17e6b5d0f44c42f221af863c8c35fb976
     changeNotes: Initial release
