@@ -11,8 +11,6 @@ Recommended default query parameters for the template whitelist:
 - utm_term
 - utm_content
 - utm_campaign_id
-- utm_marketing_tactic
-- utm_creative_format
 - utm_source_platform
 - gclid
 - dclid

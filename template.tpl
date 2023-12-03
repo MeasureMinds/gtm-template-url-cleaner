@@ -175,8 +175,6 @@ const joinMax = (cleanParams, maxLen) => {
     utm_term: 1,
     utm_content: 1,
     utm_query: 2,
-    utm_marketing_tactic: 2,
-    utm_creative_format: 2,
     utm_source_platform: 2,
     fbclid: 2,
     twclid: 2,
